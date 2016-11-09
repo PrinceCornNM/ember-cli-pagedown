@@ -1,5 +1,7 @@
 # Ember-cli-pagedown
 
+EDIT: fixed error for fastboot
+
 [![Build Status](https://travis-ci.org/aethermx/ember-cli-pagedown.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-pagedown)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-pagedown.svg)](http://emberobserver.com/addons/ember-cli-pagedown)
 [![Code Climate](https://codeclimate.com/github/aethermx/ember-cli-pagedown/badges/gpa.svg)](https://codeclimate.com/github/aethermx/ember-cli-pagedown)
@@ -9,13 +11,13 @@ A set of components that provide a Markdown editor and PageDown converters.
 ## Addon Install
 
     ember install ember-cli-pagedown
-    bower install --save https://github.com/ujifgc/pagedown.git#f1ae0f5626e044f64b937836962a9941c60c7596 
+    bower install --save https://github.com/ujifgc/pagedown.git#f1ae0f5626e044f64b937836962a9941c60c7596
 
     # if ember-cli <= 0.2.2
     ember install:addon ember-cli-pagedown
-    bower install --save https://github.com/ujifgc/pagedown.git#f1ae0f5626e044f64b937836962a9941c60c7596 
+    bower install --save https://github.com/ujifgc/pagedown.git#f1ae0f5626e044f64b937836962a9941c60c7596
 
-## Objects provided 
+## Objects provided
 
 * component:pd-converter
 * component:pd-s-converter
